@@ -26,7 +26,7 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 - [Part 2: Prepare for launch](./part2-PrepareForLaunch.md)
 - [Part 3: Blastoff](./part3-Blastoff.md)
 - [Part 4: Blastoff](./part4-Blastoff.md)
-- Presentation slides: [keynote](./GalaxySF copy.key) and [PDF](./GalaxySF copy.pdf)
+- Presentation slides: [keynote](https://github.com/postmanlabs/galaxy-workshop/blob/master/GalaxySF%20copy.key) and [PDF](https://github.com/postmanlabs/galaxy-workshop/blob/master/GalaxySF%20copy.pdf)
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
@@ -40,4 +40,4 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 
 ## Guidelines for workshop host
 
-- Link to md
+- [Tips and checklist](./workshopHostGuidelines.md) for the workshop host
