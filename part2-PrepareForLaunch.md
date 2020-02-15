@@ -52,7 +52,7 @@ pm.environment.set("nameOfVariable", valueOfVariable);
 1. Running a collection with the collection runner
 1. Using lots and lots of variables
 
-## [REFERENCE]
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ### Concepts
 

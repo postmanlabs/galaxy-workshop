@@ -26,8 +26,8 @@
 ## [DO] Write a test
 
 1. Under the **Tests** tab, insert a test snippet from the right sidebar.
-1. Send the request again and observe the test results in the response viewer.
-1. Update the test to fail, and observe the test results.
+1. Send the request again, and observe the test results in the response viewer.
+1. Update the test to fail, send the request again, and observe the test results.
 1. Review the syntax of Postman tests and [Chai.js](https://www.chaijs.com/) assertions.
 
 ## [LISTEN] Summary
@@ -37,7 +37,7 @@
 1. Writing a test
 1. Creating a collection
 
-## [REFERENCE]
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ### Concepts
 

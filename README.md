@@ -4,6 +4,9 @@
 
 During this half-day session, we'll dive into a series of hands-on exercises, demos, and discussions to get you more familiar with the latest Postman products and features and how they can help you throughout the API lifecycle.
 
+> Postman can feel like a vast, vast galaxy.
+> Let's make it a bit smaller and more approachable today.
+
 ## Agenda
 
 - 0:00-1:45 Prepare for launch
@@ -22,9 +25,10 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 - [Prepare for launch - part 1](./part1-PrepareForLaunch.md)
 - [Prepare for launch - part 2](./part2-PrepareForLaunch.md)
 - [Blastoff - part 3](./part3-Blastoff.md)
-- Link to summary slides
+- [Blastoff - part 4](./part4-Blastoff.md)
+- [Presentation slides] -Link to summary slides
 
-![[galaxy image](https://apod.nasa.gov/apod/image/2001/RubinsGalaxy_hst2000.jpg)](https://apod.nasa.gov/apod/image/2001/RubinsGalaxy_hst2000.jpg)
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ## Additional Resources
 
