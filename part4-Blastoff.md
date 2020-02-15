@@ -36,3 +36,19 @@
 1. Import the **How to use the Postman console** template.
 1. Open the Postman console, and run the request `message types`.
 1. Observe how the log statements written under the script areas correspond to the logs in the Postman console, information about network requests, and other metadata and features within the console display.
+
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
+
+### New features and improvementns
+
+1. API specifications
+1. GraphQL support
+1. Interceptor support
+1. Code genenration improvements
+1. Consnnole improvements
+
+### Additional resources
+
+1. [Cosmos](https://explore.postman.com/templates/4341/cosmos) template
+1. [Working with GraphQL](https://explore.postman.com/templates/1692/working-with-graphql) template
+1. [How to use the Postman Console](https://explore.postman.com/templates/4573/how-to-use-the-postman-console) template

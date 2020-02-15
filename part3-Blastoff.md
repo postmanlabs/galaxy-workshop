@@ -24,28 +24,31 @@ newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{po
 ## [DO] Run the collection from Postman servers with Monitor
 
 1. Schedule a monitor to run on the Postman servers, select the frequency, regions, and other configuration options.
-1. In the web dashboard, review a history of previous monitor runs, the run results, and monitor console.
+1. In the web dashboard, review the monitor run results.
 
 ## [DO] Do documentation
 
 1. Write a description in markdown for a collection, folder, request, and parameter.
-1. Share a collection to a team workspace.
+1. Create a team workspace, and share an existing collection to the new workspace.
 1. Publish the collection publicly.
 
 ## [DO] Collaboration
 
-1. Update the role of a user in a team workspace.
-1. Fork a collection,
+1. Toggle over to the **Browse** view in Postman.
+1. Update the role of a user for a collection in a team workspace.
+1. Fork and merge a collection
+1. Add a new version to the API specification (or to the collection).
 1. Review the changelog for the collection, workspace, team, or user.
+1. Browse available integrations.
 
-## [LISTEN] Summary
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
+
+### Summary
 
 1. Running a collection with Newman for CI/CD, from CLI, or as a library
 1. Running a collection with monitors from Postman servers
 1. Writing and sharing private and public documentation
 1. Using Postman for lots and lots of collaboration
-
-![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ### Concepts
 

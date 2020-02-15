@@ -4,7 +4,7 @@
 
 1. Download [Postman](https://www.postman.com/downloads/) for Mac / Windows / Linux
 1. Create a [Postman account](https://learning.postman.com/docs/postman/launching-postman/postman-account/#signing-up-for-a-postman-account), and then sign in to the Postman app
-1. Get a ShipEngine sandbox API key using [this link](https://shipengine.com/postman), and select “United States” as your country when signing up for this free account to enable the sandbox environment
+1. Create a free ShipEngine account and get a sandbox API key using [this link](https://shipengine.com/postman), and select “United States” as your country when signing up for this free account to enable the sandbox environment
 
 ## [DO] Import the collection
 
@@ -30,14 +30,14 @@
 1. Update the test to fail, send the request again, and observe the test results.
 1. Review the syntax of Postman tests and [Chai.js](https://www.chaijs.com/) assertions.
 
-## [LISTEN] Summary
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
+
+### Summary
 
 1. Orientation within the app
 1. Sending an HTTP request
 1. Writing a test
 1. Creating a collection
-
-![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ### Concepts
 

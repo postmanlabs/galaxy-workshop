@@ -46,13 +46,13 @@ pm.environment.set("nameOfVariable", valueOfVariable);
 1. Duplicate the request `Echo the exchange rate` from the **Intro to writing tests** collection, rename the request, and drag the request into the **ShipEngine Walkthrough** collection.
 1. Update the data to be sent in the request `Echo`, and review the syntax of getting and setting variables in text vs. script areas.
 
-## [LISTEN] Summary
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
+
+### Summary
 
 1. Writing advanced scripts and tests
 1. Running a collection with the collection runner
 1. Using lots and lots of variables
-
-![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ### Concepts
 

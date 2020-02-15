@@ -18,15 +18,15 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 
 - Download [Postman](https://www.postman.com/downloads/) for Mac / Windows / Linux
 - Create a [Postman account](https://learning.postman.com/docs/postman/launching-postman/postman-account/#signing-up-for-a-postman-account), and then sign in to the Postman app
-- Get a ShipEngine sandbox API key using [this link](https://shipengine.com/postman), and select “United States” as your country when signing up for this free account to enable the sandbox environment
+- Create a free ShipEngine account and get a sandbox API key using [this link](https://shipengine.com/postman), and select “United States” as your country when signing up for this free account to enable the sandbox environment
 
 ## Workshop milestones
 
-- [Prepare for launch - part 1](./part1-PrepareForLaunch.md)
-- [Prepare for launch - part 2](./part2-PrepareForLaunch.md)
-- [Blastoff - part 3](./part3-Blastoff.md)
-- [Blastoff - part 4](./part4-Blastoff.md)
-- [Presentation slides] -Link to summary slides
+- [Part 1: Prepare for launch](./part1-PrepareForLaunch.md)
+- [Part 2: Prepare for launch](./part2-PrepareForLaunch.md)
+- [Part 3: Blastoff](./part3-Blastoff.md)
+- [Part 4: Blastoff](./part4-Blastoff.md)
+- Presentation slides: [keynote](./GalaxySF copy.key) and [PDF](./GalaxySF copy.pdf)
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
