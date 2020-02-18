@@ -6,7 +6,7 @@
 1. Create a [Postman account](https://learning.postman.com/docs/postman/launching-postman/postman-account/#signing-up-for-a-postman-account), and then sign in to the Postman app
 1. Create a free ShipEngine account and get a sandbox API key using [this link](https://shipengine.com/postman), and select “United States” as your country when signing up for this free account to enable the sandbox environment
 
-## [DO] Import the collection
+## [DO] Create a workspace and Import the collection
 
 1. In the Postman app, create a personal or team workspace to organize our workshop output.
 1. Click the **New+** button, tab over to **API Network**, and find "ShipEngine".
@@ -16,6 +16,7 @@
 ## [DO] Authorize your requests
 
 1. Add your ShipEngine sandbox API key by [updating the collection variable](https://learning.postman.com/docs/postman/variables-and-environments/variables/#defining-collection-variables) called `API_KEY`.
+1. Observe how Postman handles auth under the **Authorization** tab of the collection details modal.
 1. Send the first request in the collection `List your carriers` to initialize some additional collection variables.
 
 ## [DO] Explore the ShipEngine API
