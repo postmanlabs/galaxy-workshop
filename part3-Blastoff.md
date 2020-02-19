@@ -28,7 +28,7 @@ newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{po
 
 ## [DO] Do documentation
 
-1. Write a description in markdown for a collection, folder, request, and parameter.
+1. Write a description in [markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest) for a collection, folder, request, and parameter.
 1. Create a team workspace, and share an existing collection to the new workspace.
 1. Publish the collection publicly, customize theme, and add as a template.
 

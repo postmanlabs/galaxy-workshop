@@ -38,6 +38,10 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 - [Product Roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers)
 - [Better Practices](https://medium.com/better-practices) technical blog
 
+## Tunes 🎶
+
+**Digging the Postman vibe?** Re-live the Postman Galaxy experience with this [spotify playlist](https://open.spotify.com/playlist/5yWpzDpvh8GP9mOODAwJ0G?si=fXvnnK_4QC6N5VI3iCyFeA).
+
 ## Guidelines for workshop host
 
 - [Tips and checklist](./workshopHostGuidelines.md) for the workshop host
