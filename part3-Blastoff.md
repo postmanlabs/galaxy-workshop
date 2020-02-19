@@ -11,7 +11,7 @@
 1. In order to use **Newman**, you will need to install [Node.js](https://nodejs.org/en/download/), a package manager like [npm](https://www.npmjs.com/), and [Newman](https://github.com/postmanlabs/newman) using a command like `npm install -g newman`.
 1. Begin by exporting the Postman Echo collection to a local directory, run `newman run collection.json`, and observe the CLI output.
 1. Import **Postman** collection from the API Network.
-1. Retrieve your [Postman API](https://learning.postman.com/docs/postman/postman-api/intro-api/) key, and store it as an environment variable called `postman-api-key`.
+1. Retrieve your [Postman API](https://learning.postman.com/docs/postman/postman-api/intro-api/) key, and store it as an environment variable called `postman_api_key`.
 1. [`GET` all collections](https://docs.api.getpostman.com/?version=latest#3190c896-4216-a0a3-aa38-a041d0c2eb72), find the Postman Echo collection in the response body, and copy the collection `uid` to your clipboard.
 1. [`GET` a single collection](https://docs.api.getpostman.com/?version=latest#647806d5-492a-eded-1df6-6529b5dc685c) using the `uid` from the previous step.
 1. In order to use the URL with Newman, add a query string parameter `apikey` with the value of your Postman API Key.
