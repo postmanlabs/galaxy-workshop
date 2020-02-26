@@ -2,6 +2,8 @@
 
 ![[galaxy art](https://github.com/postmanlabs/galaxy-workshop/blob/master/galaxyBanner.png?raw=true)](https://github.com/postmanlabs/galaxy-workshop/blob/master/galaxyBanner.png?raw=true)
 
+## bit.ly/postman-galaxy-workshop
+
 During this half-day session, we'll dive into a series of hands-on exercises to get you more familiar with Postman features and how they can help you throughout the API lifecycle.
 
 ## Pre-requisites
