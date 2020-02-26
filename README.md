@@ -13,8 +13,6 @@ During this half-day session, we'll dive into a series of hands-on exercises to 
 * Create a free ShipEngine account and get a sandbox API key by visiting [shipengine.com/postman](https://shipengine.com/postman) (_make sure you use this link as they've kindly raised rate limits for this workshop_).
   * Select “United States” as your country when signing up for this free account to enable the sandbox environment.
 
-[![Intro Slide](./GalaxyTourIntro-Sue.jpg)](./GalaxyTourIntro-Sue.jpg)
-
 ## Agenda
 
 - **T+0:00 (start)**

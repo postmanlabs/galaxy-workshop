@@ -13,6 +13,8 @@ Now that you've tried out collections, auth, variables, and test snippets, let's
 
 ## 2. Use variables to pass data between requests
 
+* Create an environment to use for your tests. In the top right click the eye button—the environment quick look. In the __Environments__ section, click __Add__. Give your environment the name `workshop`, click __Add__, and close the __Manage Environments__ modal.
+* Use the dropdown at the top right to select the `workshop` environment you just created.
 * In the collection `Integration tests` folder &gt; `Using variables` sub-folder, send the request `Bitcoin exchange rate` and inspect the response.
 * Check out the JavaScript code under the request **Tests** tab—it demonstrates how to get and set variables from a script using the `.set` method.
 * Open the request `Echo the exchange rate`. Notice that the URL references the `bitcoinRate` variable set in the previous request tests. Send the request to see the response.
@@ -32,9 +34,9 @@ You can run all of the requests in a collection or folder using the collection r
 
 ```javascript
 let jsonData = pm.response.json();
-let responseField = jsonData.args.foo1;
-//the "foo1" field in the response has the value "bar1"
-if (responseField === 'bar1') {
+let responseField = jsonData.data;
+//check the length of the text
+if (responseField.length > 10) {
   //note - setnextrequest only works when you use collection runner
   postman.setNextRequest("DELETE Request");
 }
@@ -42,23 +44,23 @@ if (responseField === 'bar1') {
 
 * Make sure you __Save__ the request so that your code will execute when you run the collection.
 * Open the __Runner__ again and select the Postman Echo collection "Request Methods" folder only. Run the collection—it should run the GET request followed by the DELETE request, skipping the requests in-between.
-* _Optional: try changing the conditional test to return false and running the collection again (e.g. change "bar1" to "bar")._
 * Alter the code to pass `null` to the `setNextRequest` method:
 
 ```javascript
-if (responseField === 'bar1') {
+if (responseField.length > 10) {
   postman.setNextRequest(null);
 }
 ```
 
 * Open the __Runner__ and select the Postman Echo collection "Request Methods" folder again. Start the run—it should stop after one request.
+* _Optional: try changing the conditional test to return false and running the collection again (e.g. change &gt; to &lt;)._
 
 ## 6. Share data between collections
 
 You can pass data between requests even if they are not in the same collection. Environments allow you to define sets of key value pairs you can use in multiple requests / collections.
 
 * Open the Intro to Writing Tests collection &gt; `Integration Tests` &gt; `Bitcoin exchange rate` request again. In the __Tests__ remember that it sets the `bitcoinRate` environment variable.
-* Open the API Learner collection &gt; `POST data` request. Make sure the `workshop` environment is selected from the dropdown in the top right.
+* Open the API Learner collection &gt; `POST data` request. Make sure the `workshop` environment is still selected.
 * In the __Body__ of the request, add a new field, referencing the environment variable so that the body data has the following structure:
 
 ```json
