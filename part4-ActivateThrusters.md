@@ -1,54 +1,59 @@
-# Activate Thrusters - part 4
+# Activate Thrusters
 
-**Choose your own adventure**: part 4 of this workshop is tailored to the interests and makeup of the attendees. In the **Side Missions Q&A Networking** immediately following, attendees can talk through specific features and workflows in a smaller group.
+In the last part of the session, we're going to look at a few areas for further learning, then we can separate into groups or do some self-directed learning with support from helpers. We can dive in more detail into any of the topics we've already covered if that's helpful too.
 
-## [OBSERVE] Maintain your **API specifications**
+## 1. Collaboration in Postman
 
-1. Import the **Cosmos** template.
-1. Review the web documentation to access [an example specification file](https://github.com/postmanlabs/spectral-postman/blob/master/cosmos.yaml), and copy this specification to your clipboard.
-1. In the Postman app under the **APIs** tab, create a new API by pasting the specification and selecting `OpenAPI 3.0` and `YAML` format.
-1. Save the specification details, and generate a collection.
+We saw earlier that you can create workspaces in Postman. There are various other features designed to support collaboration.
 
-## [OBSERVE] An easier way to **GraphQL**
+* You can invite people to workspaces.
+* With paid accounts you can specify role based access control.
+* You can use version control on APIs and collections.
+  * Fork, merge, open pull requests.
+* View changelogs for collections, teams, workspaces.
 
-1. Import the **Working with GraphQL** template.
-1. Under the last request `Built-in support for GraphQL`, read the request description and copy the sample GraphQL schema to your clipboard.
-1. Under the **APIs** tab, paste the GraphQL as a new schema (as described in the previous section), select the `GraphQL` schema type, and hit **Save**.
-1. Back under the **Collections** tab, return to the `Built-in support for GraphQL` request under the **Body** tab, select your recently added schema, and hit refresh.
-1. Observe the syntax highlighting, autocompletion from schema, and usage of GraphQL and other variables.
+## 2. Monitors
 
-## [OBSERVE] **Intercept** your cookies
+We saw earlier how you can run the requests in a collection using the collection runner. You can schedule these to run and analyze performance using monitors.
 
-1. The first time using the **Interceptor**, you will need [to install the Postman interceptor and bridge](https://learning.postman.com/docs/postman/sending-api-requests/interceptor/#installing-interceptor).
-1. Send a request to a site like `medium.com`, and inspect the response.
-1. Under the **Interceptor** icon to "Capture requests and cookies with Postman", tab over to **Cookies** and toggle on **Capture Cookies**. Enter a domain like `medium.com`, and add the domain.
-1. Return to the original request to `medium.com`, and re-inspect the response. Observe the difference in response when you're logged in to your Medium account (in the Chrome browser) and when you're not. Observe the difference when you've added the domain to sync your cookies or removed the domain.
+* Open a collection and choose the __Monitors__ tab.
+* Create a monitor and setup details including run frequency.
+* View monitor results in the web dashboard.
 
-## [DO] Finer control for **generating code**
+## 3. Mock data
 
-1. Under the wrench icon's **General Settings**, toggle on the `New Code Generation Mode`.
-1. On a tab with a request working as you'd like it, click the **Code** link.
-1. Select a language or framework, and observe the generated code snippets.
-1. Under the gear icon, customize your preferences for each language's code generation.
+You can use Postman to mock data during API design or development. Mocks use examples you specify in Postman to provide test data.
 
-## [DO] Powerful debugging with the **console**
+* Open a collection and select the __Mocks__ tab.
+* Create a new mock, giving it a name.
+* Add examples.
+* Use the mock server URL in your requests to return example data instead of hitting the actual API.
 
-1. Import the **How to use the Postman console** template.
-1. Open the Postman console, and run the request `message types`.
-1. Observe how the log statements written under the script areas correspond to the logs in the Postman console, information about network requests, and other metadata and features within the console display.
+## 4. API schema
+
+You can define and model your API using a specification inside Postman. Postman API Builder can act as the single source of truth through multiple phases of your development and testing process.
+
+* In Postman, open __APIs__ on the left.
+* You can import or write a spec, for example OpenAPI (formerly Swagger).
+* You can generate collections from a schema.
+* You can validate against a schema.
+* You can connect various other elements to your scheme, e.g. mocks, monitors, tests.
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
-### New features and improvements
+## Additional resources
 
-1. API specifications
-1. GraphQL support
-1. Interceptor support
-1. Code generation improvements
-1. Console improvements
+* [Get support on the Postman community forum](https://community.getpostman.com/)
+* [Check out the docs](https://learning.postman.com/docs/)
+* [Explore the API Network](https://explore.postman.com/)
 
-### Additional resources
+![Postman Platform](./platform.png)
 
-1. [Cosmos](https://explore.postman.com/templates/4341/cosmos) template
-1. [Working with GraphQL](https://explore.postman.com/templates/1692/working-with-graphql) template
-1. [How to use the Postman Console](https://explore.postman.com/templates/4573/how-to-use-the-postman-console) template
+## Next steps
+
+Follow-up topics for further learning:
+
+* You can write GraphQL queries and specs in Postman. Import the template `Working with GraphQL` and check it out.
+* Postman Interceptor allows you to sync cookie data for specified domains. Check out [the docs](https://learning.postman.com/docs/postman/sending-api-requests/interceptor/).
+* If you use code generation in Postman, you can customize how your code is generated using the __Settings__ &gt; __New Code Generation Mode__ option then clicking __Code__ in a request and opening the settings to configure the detail for specific languages.
+* The Postman Console provides debugging info you can use when troubleshooting your requests—and has recently had an upgrade. Import the template `How to use the Postman console`, open the console from the bottom left, and run the request `message types`, observing the info you can access in the console display.

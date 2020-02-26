@@ -1,62 +1,58 @@
-# Liftoff- part 3
+# Liftoff
 
-## [DO] Run the collection with the collection runner
+So far we have tried running collections, shared data between requests, and used some basic test scripting. In this section we will look at Postman on the command line, the Postman API, generating documentation, and collaborating in Postman.
 
-1. Import the **Postman Echo** template.
-1. Run the collection with the collection runner, and observe the results.
-1. Filter on failed tests, and drill down into the request and response details.
+## 1. Run a collection from CLI with Newman
 
-## [OBSERVE] Run the collection from CLI with Newman
+You can run collections from the Postman CLI Newman—which in turns facilitates integrating collection runs with your CI/CD pipeline—for example if tests fail you could set an exit flag to prevent deployment.
 
-1. In order to use **Newman**, you will need to install [Node.js](https://nodejs.org/en/download/), a package manager like [npm](https://www.npmjs.com/), and [Newman](https://github.com/postmanlabs/newman) using a command like `npm install -g newman`.
-1. Begin by exporting the Postman Echo collection to a local directory, run `newman run collection.json`, and observe the CLI output.
-1. Import **Postman** collection from the API Network.
-1. Retrieve your [Postman API](https://learning.postman.com/docs/postman/postman-api/intro-api/) key, and store it as an environment variable called `postman_api_key`.
-1. [`GET` all collections](https://docs.api.getpostman.com/?version=latest#3190c896-4216-a0a3-aa38-a041d0c2eb72), find the Postman Echo collection in the response body, and copy the collection `uid` to your clipboard.
-1. [`GET` a single collection](https://docs.api.getpostman.com/?version=latest#647806d5-492a-eded-1df6-6529b5dc685c) using the `uid` from the previous step.
-1. In order to use the URL with Newman, add a query string parameter `apikey` with the value of your Postman API Key.
-1. Run the collection using Newman and this entire URL, and discuss how this can be used with your Continuous Integration / Continuous Delivery (CI/CD) pipeline.
+> In order to use **Newman**, you will need to install [Node.js](https://nodejs.org/en/download/), a package manager like [npm](https://www.npmjs.com/), and [Newman](https://github.com/postmanlabs/newman) using a command like `npm install -g newman`. _If you don't already have node and npm on your computer you might want to watch this part and get setup to try it yourself later._
+
+* Exporting the Postman Echo collection to a local directory.
+* Run `newman run collection.json`, and observe the CLI output.
+
+## 2. Use Postman API
+
+Now let's try out the Postman API via Newman too.
+
+* Import the "Postman" collection into the Postman app from the API Network.
+* Retrieve your Postman API key by navigating to the [web dashboard](https://web.postman.co), selecting your workspace, and selecting _Integrations__. Browse integrations, find __Postman API__ and follow the instructions to generate your key.
+* Store your key in Postman as an environment variable called `postman_api_key`.
+* In the Postman API collection, run the request `GET All Collections`. Choose a collection in the response body and copy its `uid` value to your clipboard.
+* Open the `GET Single Collection` request, add the `uid` you copied either by pasting it at the end of the URL (replacing the `collection_uid` var or by adding the var and using your copied value). Run the request.
+* In order to use the URL in Newman on the command line, insert the `uid` value and add a query string parameter `apikey` with the value of your Postman API Key.
 
 ```bash
 newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman_api_key}}
 ```
 
-## [DO] Run the collection from Postman servers with Monitor
+## 3. Generate documentation
 
-1. Schedule a monitor to run on the Postman servers, select the frequency, regions, and other configuration options.
-1. In the web dashboard, review the monitor run results.
+You can generate user documentation directly from your Postman collections. Documentation can include instructional text, request details, example request and response code, and code snippets in different languages.
 
-## [DO] Do documentation
-
-1. Write a description in [markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest) for a collection, folder, request, and parameter.
-1. Create a team workspace, and share an existing collection to the new workspace.
-1. Publish the collection publicly, customize theme, and add as a template.
-
-## [DO] Collaboration
-
-1. Toggle over to the **Browse** view in Postman.
-1. For Postman Team users, update the role of a user for a collection in a team workspace.
-1. Fork and merge a collection
-1. Add a new version to the API specification (or to the collection).
-1. Review the changelog for the collection, workspace, team, or user.
-1. Browse available integrations.
+* Open any of the collections you have in your Postman app. Click the description text—make an edit. Request details can also be set when you open a request—set the name and description for the request and parameters.
+* With the collection details open, click __View in web__. By default the private view of your docs will open—you can also edit in the browser.
+* By publishing your docs you can make them available at a shareable URL and promote them in the API Network along with a team listing.
+* Docs can be versioned and include an environment—you can use environment variables to populate doc content (but be careful in case you expose sensitive data).
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
-### Summary
+## Recap
 
-1. Running a collection with Newman for CI/CD, from CLI, or as a library
-1. Running a collection with monitors from Postman servers
-1. Writing and sharing private and public documentation
-1. Using Postman for lots and lots of collaboration
+In this section we covered:
 
-### Concepts
+* Using the command line
+* Using Postman API
+* Generating API documentation
 
-1. Automation with [Newman](https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/) and [Monitors](https://learning.postman.com/docs/postman/monitors/intro-monitors/)
-1. [Documentation](https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/)
-1. [Collaboration](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/)
+## Additional resources
 
-### Additional resources
+Check out the Postman docs:
 
-1. [Postman Echo](https://explore.postman.com/templates/1358/postman-echo) template
-1. [Postman API](https://explore.postman.com/team/postman)
+* Automation with [Newman](https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/)
+* [Postman API](https://learning.postman.com/docs/postman/postman-api/intro-api/)
+* [Publishing documentation](https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/)
+
+## Next steps
+
+Next up let's overview some places for further learning: __[Activate thrusters](./part4-ActivateThrusters.md)__.

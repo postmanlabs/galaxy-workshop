@@ -1,54 +1,77 @@
-# Prepare for Launch - part 1
+# Prepare for Launch
 
-## Verify pre-requisites
+__Before you get started make sure you have carried out the following setup steps:__
 
-1. Download [Postman](https://www.postman.com/downloads/) for Mac / Windows / Linux
-1. Create a [Postman account](https://learning.postman.com/docs/postman/launching-postman/postman-account/#signing-up-for-a-postman-account), and then sign in to the Postman app
-1. Create a free ShipEngine account and get a sandbox API key using [this link](https://shipengine.com/postman), and select “United States” as your country when signing up for this free account to enable the sandbox environment
+* Download [Postman](https://www.postman.com/downloads/) for Mac / Windows / Linux.
+* Create a [Postman account](https://learning.postman.com/docs/postman/launching-postman/postman-account/#signing-up-for-a-postman-account), and then sign in to the Postman app.
+* Create a free ShipEngine account and get a sandbox API key by visiting [shipengine.com/postman](https://shipengine.com/postman) (_make sure you use this link as they've kindly raised rate limits for this workshop_). Select “United States” as your country when signing up for this free account to enable the sandbox environment.
 
-## [DO] Create a workspace and Import the collection
+We'll import a few collections along the way. Having these in your Postman app will give you loads more requests to play around with after the session.
 
-1. In the Postman app, create a personal or team workspace to organize our workshop output.
-1. Click the **New+** button, tab over to **API Network**, and find "ShipEngine".
-1. Import the **ShipEngine Walkthrough** collection using the **Run in Postman** button.
-1. Observe various aspects of the collection, including [the web documentation](https://documenter.getpostman.com/view/305204/SW7XbA6V?version=latest) that reviews how to get started with the ShipEngine API.
+In this section we're going to create a workspace, import a collection, authorize our requests, and add a test.
 
-## [DO] Authorize your requests
+## 1. Create a workspace
 
-1. Add your ShipEngine sandbox API key by [updating the collection variable](https://learning.postman.com/docs/postman/variables-and-environments/variables/#defining-collection-variables) called `API_KEY`.
-1. Observe how Postman handles auth under the **Authorization** tab of the collection details modal.
-1. Send the first request in the collection `List your carriers` to initialize some additional collection variables.
+In the Postman app, create a personal or team workspace to organize your workshop output.
 
-## [DO] Explore the ShipEngine API
+* Open the dropdown at the top of the app and select __Create New__ &gt; enter a name and __Create Workspace__.
 
-1. Send the second request in the collection `Get a specific carrier` and observe various aspects of the request and response.
-1. Review request builder and response viewer elements.
+## 2. Import a collection
 
-## [DO] Write a test
+Postman collections let you organize groups of requests together with associated elements such as tests and documentation. You can create your own and import others.
 
-1. Under the **Tests** tab, insert a test snippet from the right sidebar.
-1. Send the request again, and observe the test results in the response viewer.
-1. Update the test to fail, send the request again, and observe the test results.
-1. Review the syntax of Postman tests and [Chai.js](https://www.chaijs.com/) assertions.
+> We're going to use a real-world API from ShipEngine, a shipping company who use Postman for developer onboarding and who created an exemplary demo of what you can do with Postman API docs.
+
+* Click **New+**, tab over to **API Network**, and find the "ShipEngine" listing.
+* Import the **ShipEngine Walkthrough** collection using the **Run in Postman** button.
+
+_The ShipEngine collection has [published documentation](https://documenter.getpostman.com/view/305204/SW7XbA6V?version=latest) you can access by opening it in __Collections__ and clicking __View in web__._
+
+## 3. Authorize your requests
+
+You can specify auth details in Postman at the collection level using variables. Find the ShipEngine API key you obtained after signing up.
+
+* Open the menu for the collection and select __Edit__. Select the __Variables__ tab.
+* Add your ShipEngine key value as the __Initial Value__ field for the `API_KEY` variable (and the __Current Value__ field).
+* Open the __Authorization__ tab so see how the collection requests are setup to authenticate. Click __Update__ to save your config.
+* Send the first request in the collection `List your carriers`—this will initialize some additional collection variables you'll need later.
+
+## 4. Test a request
+
+* Send the second request in the collection `Get a specific carrier` and explore the response.
+* Under the **Tests** tab, insert a test snippet from the right sidebar at the top of the script. Choose "Status code: Code is 200" from the list.
+* Send the request again, and observe the test results in the response viewer.
+* Update the test to fail, e.g. by testing for a 400 response code instead of 200. Send the request again, and observe the test results.
+
+_Postman tests can use [Chai.js](https://www.chaijs.com/) assertions._
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
-### Summary
+## Recap
 
-1. Orientation within the app
-1. Sending an HTTP request
-1. Writing a test
-1. Creating a collection
+In this section we tried out:
 
-### Concepts
+* creating a workspace
+* importing a collection
+* authorizing requests
+* using variables
+* test scripts
 
-1. [Workspaces](https://learning.postman.com/docs/postman/workspaces/intro-to-workspaces)
-1. [Requests](https://learning.postman.com/docs/postman/sending-api-requests/requests/)
-1. [Collections](https://learning.postman.com/docs/postman/collections/intro-to-collections/)
-1. [Variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/)
-1. [Tests](https://learning.postman.com/docs/postman/scripts/test-scripts/)
+## Additional resources
 
-### Additional resources
+Check out the Postman docs for more on these topics:
 
-1. [Postman API Network](https://explore.postman.com/)
-1. [Chai.js](https://www.chaijs.com/) test assertion library
+* [Workspaces](https://learning.postman.com/docs/postman/workspaces/intro-to-workspaces)
+* [Requests](https://learning.postman.com/docs/postman/sending-api-requests/requests/)
+* [Collections](https://learning.postman.com/docs/postman/collections/intro-to-collections/)
+* [Variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/)
+* [Tests](https://learning.postman.com/docs/postman/scripts/test-scripts/)
+
+See also:
+
+* [Postman API Network](https://explore.postman.com/)
+* [Chai.js](https://www.chaijs.com/) test assertion library
+
+## Next steps
+
+Next up: __[Final Countdown](./part2-FinalCountdown.md)__
