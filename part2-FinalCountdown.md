@@ -8,6 +8,7 @@
 
 ## [DO] Learn how to use variables to pass data between requests
 
+1. Create a new environment (to store our data), and then use the dropdown to select this new environment.
 1. Under the **Integration tests** folder and **Using variables** sub-folder, send the request `Bitcoin exchange rate` and inspect the response.
 1. Review the JavaScript code under the **Tests** tab, and observe how to get and set variables in script areas.
 1. Send the request `Echo the exchange rate`, and observe how to get variables in text areas.

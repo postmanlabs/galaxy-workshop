@@ -31,13 +31,14 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 ## Workshop milestones
 
 - [Part 1: Prepare for launch](./part1-PrepareForLaunch.md)
-- [Part 2: Final Countdown](./part2-FinalCountdown.md)
+- [Part 2: Final countdown](./part2-FinalCountdown.md)
 - [Part 3: Liftoff](./part3-Liftoff.md)
 - [Part 4: Activate thrusters](./part4-ActivateThrusters.md)
 
 ## Presentation slides
 
-- [Keynote format](https://github.com/postmanlabs/galaxy-workshop/blob/master/GalaxySF%20copy.key) - [PDF format](https://github.com/postmanlabs/galaxy-workshop/blob/master/GalaxySF%20copy.pdf)
+- [Keynote format](https://github.com/postmanlabs/galaxy-workshop/blob/master/GalaxySF%20copy.key)
+- [PDF format](https://github.com/postmanlabs/galaxy-workshop/blob/master/GalaxySF%20copy.pdf)
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
