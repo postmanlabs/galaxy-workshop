@@ -61,15 +61,7 @@ You can pass data between requests even if they are not in the same collection. 
 
 * Open the Intro to Writing Tests collection &gt; `Integration Tests` &gt; `Bitcoin exchange rate` request again. In the __Tests__ remember that it sets the `bitcoinRate` environment variable.
 * Open the API Learner collection &gt; `POST data` request. Make sure the `workshop` environment is still selected.
-* In the __Body__ of the request, add a new field, referencing the environment variable so that the body data has the following structure:
-
-```json
-{
- "name": "sue",
- "rate": "{{bitcoinRate}}"
-}
-```
-
+* In the __Body__ of the request, add a new field, with the value referencing the environment variable.
 * Send the request—you will see the variable value set by the request in the other collection was sent to this request via the environment.
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
