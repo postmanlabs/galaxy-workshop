@@ -34,7 +34,7 @@ Let's use Postman to call the Postman API so that we can get a collection ID to 
 * Insert the collection `uid` value and add a query string parameter `apikey` with the value of your Postman API Key to run the collection using Newman:
 
 ```bash
-newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman_api_key}}
+newman run https://api.getpostman.com/collections/collection_uid?apikey=postman_api_key
 ```
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
