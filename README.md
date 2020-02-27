@@ -24,17 +24,27 @@ During this half-day session, we'll dive into a series of hands-on exercises to 
   - [Liftoff](./part3-Liftoff.md)
   - [Activate thrusters](./part4-ActivateThrusters.md)
 - **T+3:15**
-  - Networking, questions, side missions, follow-up learning
+  - Networking, side missions
 
 ## Learning outcomes
 
-* Importing templates
+Which of these have you tried already?
+
+* Sending requests
+* Using workspaces and collaborating
+* Creating and importing templates
 * Authorizing requests
 * Running request collections
 * Using variables in Postman
-* Scripting basics
+* Writing test scripts
 * Chaining requests and determining order of execution
+* Generating API documentation
 * Postman CLI Newman
 * Postman API
-* Generating API documentation
 * _Further learning_
+
+If you've already done some of these, don't worry! We'll have scope for diving into a selection of additional topics.
+
+## Get started
+
+* __[Prepare for launch](./part1-PrepareForLaunch.md)__

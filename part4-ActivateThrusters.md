@@ -1,6 +1,6 @@
 # Activate Thrusters
 
-In the last part of the session, we're going to look at a few areas for further learning, then we can separate into groups or do some self-directed learning with support from helpers. We can dive in more detail into any of the topics we've already covered if that's helpful too.
+In the last part of the session, we're going to look at a few areas for further learning, then we can do Q&A, separate into groups, and/or do some self-directed learning with support from helpers. We can dive in more detail into any of the topics we've already covered if that's helpful too.
 
 ## 1. Collaboration in Postman
 
