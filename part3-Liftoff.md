@@ -27,7 +27,7 @@ We can also run a collection in Newman from a Postman account—in order to do t
 Let's use Postman to call the Postman API so that we can get a collection ID to run via Newman.
 
 * Import the "Postman" collection into the Postman app from the API Network.
-* Retrieve your Postman API key. Toggle to __Browse__ mode using the switch at the bottom of the Posmtman app. Select __Integrations__ and navigate to the web dashboard.
+* Retrieve your Postman API key. Toggle to __Browse__ mode using the switch at the bottom of the Postman app. Select __Integrations__ and navigate to the web dashboard.
 * Browse integrations, find __Postman API__ and follow the instructions to generate your key.
 * Back in the app, the Postman API collection has a variable called `postman_api_key`. Paste your key in there.
 * In the Postman API collection, run the request `GET All Collections`. Choose a collection in the response body and copy its `uid` value.
