@@ -10,8 +10,6 @@ During this half-day session, we'll dive into a series of hands-on exercises to 
 
 * Download [Postman](https://www.postman.com/downloads/) for Mac / Windows / Linux.
 * Create a [Postman account](https://learning.postman.com/docs/postman/launching-postman/postman-account/#signing-up-for-a-postman-account), and then sign in to the Postman app.
-* Create a free ShipEngine account and get a sandbox API key by visiting [shipengine.com/postman](https://shipengine.com/postman) (_make sure you use this link as they've kindly raised rate limits for this workshop_).
-  * Select “United States” as your country when signing up for this free account to enable the sandbox environment.
 
 ## Agenda
 
@@ -32,7 +30,8 @@ Which of these have you tried already?
 
 * Sending requests
 * Using workspaces and collaborating
-* Creating and importing templates
+* Creating collections
+* Importing templates
 * Authorizing requests
 * Running request collections
 * Using variables in Postman

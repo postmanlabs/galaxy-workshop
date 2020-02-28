@@ -1,19 +1,26 @@
 # Liftoff
 
-So far we have tried running collections, shared data between requests, and used some basic test scripting. In this section we will look at Postman on the command line, the Postman API, generating documentation, and collaborating in Postman.
+So far we have tried running collections, shared data between requests, and used some basic test scripting. In this section we will look at generating documentation, using Postman on the command line, and the Postman API.
 
 ## 1. Generate documentation
 
-You can generate user documentation directly from your Postman collections. Documentation can include instructional text, request details, example request and response code, and code snippets in different languages.
+You can generate user documentation for an API directly from your Postman collections. Documentation can include instructional text and images, request details, example request and response code, and code snippets in different languages.
 
 * Open any of the collections you have in your Postman app. Click the description text—make an edit. Request details can also be set when you open a request—set the name and description for the request and parameters.
-* With the collection details open, click __View in web__. By default the private view of your docs will open—you can also edit in the browser.
-* By publishing your docs you can make them available at a shareable URL and promote them in the API Network along with a team listing.
-* Docs can be versioned and include an environment—you can use environment variables to populate doc content (but be careful in case you expose sensitive data).
+* With the collection details open, click __View in web__. By default the private view of your docs will open—you can also edit in the browser. When you publish your docs you can share them via url and people can import the collection using the embedded Run in Postman button.
+  * If you just want to use the Run in Postman on a website you can generate HTML or Markdown __Embed__ from the collection in Postman by choosing __Share__.
+* Open the VIP Customers collection in the Postman app and open a GET request. Click __Examples__ and select the `Get` example. Select the collection again, open its details and choose View in Web—you'll see the examples are populated in the docs.
+
+You can promote your docs and collections within the Postman community by listing them in the Templates and API Network when you publish. Docs can be versioned and can include an environment—_you can use variables to populate doc content (but be careful in case you expose sensitive data)_.
+
+> To see a great demo of how you can use Postman for developer onboarding, check out the [ShipEngine Walkthrough](https://documenter.getpostman.com/view/305204/SW7XbA6V?version=latest) collection.
+> * Create a free ShipEngine account and get a sandbox API key by visiting [shipengine.com/postman](https://shipengine.com/postman) (_make sure you use this link as they've kindly raised rate limits for us_).
+> * Select “United States” as your country when signing up for this free account to enable the sandbox environment.
+> * Add your ShipEngine key value in the collection variables as the `API_KEY` and try out the first request.
 
 ## 2. Run a collection from CLI with Newman
 
-You can run collections from the Postman CLI Newman—which in turns facilitates integrating collection runs with your CI/CD pipeline—for example if tests fail you could set an exit flag to prevent deployment.
+You can run collections from the Postman CLI Newman—which in turn facilitates integrating collection runs with your CI/CD pipeline—for example if tests fail you could set an exit flag to prevent deployment.
 
 > In order to use **Newman**, you will need to install [Node.js](https://nodejs.org/en/download/), a package manager like [npm](https://www.npmjs.com/), and [Newman](https://github.com/postmanlabs/newman) using a command like `npm install -g newman`. _If you don't already have node and npm on your computer you might want to watch this part and get setup to try it yourself later._
 
