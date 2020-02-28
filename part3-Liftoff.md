@@ -9,7 +9,14 @@
 ## [OBSERVE] Run the collection from CLI with Newman
 
 1. In order to use **Newman**, you will need to install [Node.js](https://nodejs.org/en/download/), a package manager like [npm](https://www.npmjs.com/), and [Newman](https://github.com/postmanlabs/newman) using a command like `npm install -g newman`.
-1. Begin by exporting the Postman Echo collection to a local directory, run `newman run collection.json`, and observe the CLI output.
+1. Export the Postman Echo collection to a local directory, run the collection, and observe the CLI output.
+
+```bash
+newman run collection.json
+```
+
+## [OBSERVE] Run the collection from CLI with Newman and Postman API
+
 1. Import **Postman** collection from the API Network.
 1. Retrieve your [Postman API](https://learning.postman.com/docs/postman/postman-api/intro-api/) key, and store it as an environment variable called `postman_api_key`.
 1. [`GET` all collections](https://docs.api.getpostman.com/?version=latest#3190c896-4216-a0a3-aa38-a041d0c2eb72), find the Postman Echo collection in the response body, and copy the collection `uid` to your clipboard.
@@ -38,7 +45,7 @@ newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{po
 1. For Postman Team users, update the role of a user for a collection in a team workspace.
 1. Fork and merge a collection
 1. Add a new version to the API specification (or to the collection).
-1. Review the changelog for the collection, workspace, team, or user.
+1. Review the changelog for the collection. Review the activity feed for a workspace, user, or team (if team exists).
 1. Browse available integrations.
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)

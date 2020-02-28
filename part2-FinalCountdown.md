@@ -13,11 +13,11 @@
 1. Review the JavaScript code under the **Tests** tab, and observe how to get and set variables in script areas.
 1. Send the request `Echo the exchange rate`, and observe how to get variables in text areas.
 
-## [DO] Run a collection
+## [DO] Run a folder
 
-1. Run the collection in the collection runner, and observe the execution order.
+1. Run the folder **Using variables** in the collection runner, and observe the execution order.
 1. Write JavaScript code under the **Tests** tab to establish conditional logic to terminate a collection run.
-1. Run the collection again, and observe the execution order.
+1. Run the folder again, and observe the execution order.
 
 ```javascript
 let jsonData = pm.response.json();
@@ -46,6 +46,7 @@ pm.environment.set("nameOfVariable", valueOfVariable);
 
 1. Duplicate the request `Echo the exchange rate` from the **Intro to writing tests** collection, rename the request, and drag the request into the **ShipEngine Walkthrough** collection.
 1. Update the data to be sent in the request `Echo`, and review the syntax of getting and setting variables in text vs. script areas.
+1. Using the collection runner, run the **ShipEngine Walkthrough** collection with your newly added request.
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
