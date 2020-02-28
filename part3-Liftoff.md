@@ -37,7 +37,7 @@ Let's use Postman to call the Postman API so that we can get a collection ID to 
 * Retrieve your Postman API key. Toggle to __Browse__ mode using the switch at the bottom of the Postman app. Select __Integrations__ and navigate to the web dashboard.
 * Browse integrations, find __Postman API__ and follow the instructions to generate your key.
 * Back in the app, the Postman API collection has a variable called `postman_api_key`. Paste your key in there.
-* In the Postman API collection, run the request `GET All Collections`. Choose a collection in the response body and copy its `uid` value.
+* In the Postman API collection, open the request `GET All Collections`. Open the __Authorization__ tab to see the auth scheme and that it pulls the key value from the collection variables. __Send__ the request. Choose a collection in the response body and copy its `uid` value.
 * Insert the collection `uid` value and add a query string parameter `apikey` with the value of your Postman API Key to run the collection using Newman:
 
 ```bash

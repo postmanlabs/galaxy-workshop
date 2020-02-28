@@ -65,7 +65,7 @@ You can pass data between requests even if they are not in the same collection. 
 ```javascript
 {
 	"name": "sue",
-	"value": "\{\{bitcoinRate\}\}"
+	"value": "&#123;&#123;bitcoinRate&#125;&#125;"
 }
 ```
 
