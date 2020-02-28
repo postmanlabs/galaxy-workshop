@@ -62,12 +62,12 @@ You can pass data between requests even if they are not in the same collection. 
 * Open the API Learner collection &gt; `POST data` request.
 * In the __Body__ of the request, add a new field, with the value referencing the environment variable:
 
-```javascript
+{% raw %}
 {
 	"name": "sue",
-	"value": "\{{bitcoinRate\}}"
+	"value": "{{bitcoinRate}}"
 }
-```
+{% endraw %}
 
 * Send the request—you will see the variable value set by the request in the other collection was sent to this request via the environment.
 
