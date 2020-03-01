@@ -40,7 +40,6 @@ Which of these have you tried already?
 * Generating API documentation
 * Postman CLI Newman
 * Postman API
-* _Further learning_
 
 If you've already done some of these, don't worry! We'll have scope for diving into a selection of additional topics.
 

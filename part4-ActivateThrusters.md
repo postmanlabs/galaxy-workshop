@@ -43,7 +43,7 @@ You can define and model your API using a specification inside Postman. Postman 
 * You can import or write a spec, for example OpenAPI (formerly Swagger).
 * You can generate collections from a spec.
 * You can validate against a spec.
-* You can connect various other elements to your scheme, e.g. mocks, monitors, tests.
+* You can connect various other elements to your schema, e.g. mocks, monitors, tests.
 
 **Check out the [API Builder docs](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/)**
 
@@ -55,6 +55,18 @@ You can create test scripts that visualize response data when your requests run.
 * Pick any request and __Send__. When the response comes back, select __Visualize__. To see the code building the visualizations, select the __Tests__ tab. You can use JavaScript visualization libraries such as D3.
 
 **Check out the [Visualizer docs](https://learning.postman.com/docs/postman/sending-api-requests/visualizer/)**
+
+## Survey
+
+Please take a few minutes to fill out the survey so that we can make future workshops as useful as possible.
+
+__[bit.ly/postman-dublin-survey](http://bit.ly/postman-dublin-survey)__
+
+![Survey QRCode](./QR_code_Dublin.png)
+
+## Kahoot
+
+__Go to [kahoot.it](https://kahoot.it/) and enter the pin show on the screen—answer the questions as quick as you can to win an Amazon gift card!__
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 

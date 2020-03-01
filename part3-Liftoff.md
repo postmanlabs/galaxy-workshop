@@ -44,6 +44,8 @@ Let's use Postman to call the Postman API so that we can get a collection ID to 
 newman run https://api.getpostman.com/collections/collection_uid?apikey=postman_api_key
 ```
 
+> The key you see on screen will be revoked immediately after the workshop—note that if you accidentally commit a Postman API key to a public repo on GitHub you will receive a notification alerting you to the leaked key.
+
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ## Recap
@@ -53,6 +55,10 @@ In this section we covered:
 * Generating documentation
 * Using Newman
 * Using Postman API
+
+## Kahoot
+
+Go to [kahoot.it](https://kahoot.it/) and enter the pin show on the screen—answer the questions as quick as you can to win an Amazon gift card!
 
 ## Additional resources
 
