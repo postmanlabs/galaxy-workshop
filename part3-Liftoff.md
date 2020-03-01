@@ -1,5 +1,7 @@
 # Liftoff
 
+![Liftoff](./Liftoff.jpg)
+
 So far we have tried running collections, shared data between requests, and used some basic test scripting. In this section we will look at generating documentation, using Postman on the command line, and the Postman API.
 
 ## 1. Generate documentation

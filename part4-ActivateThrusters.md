@@ -1,5 +1,7 @@
 # Activate Thrusters
 
+![Activate](./Activate.jpg)
+
 In the last part of the session, we're going to briefly look at a few areas to potentially look into in more detail, then we can do Q&A and dive into any areas of particular interest. After the session you'll still have opportunities to chat to the team about specific topics.
 
 ## 1. Collaboration in Postman

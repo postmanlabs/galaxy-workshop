@@ -1,5 +1,7 @@
 # Final Countdown
 
+![Countdown](./Countdown.jpg)
+
 __< Previous section: [Prepare for launch](./part1-PrepareForLaunch.md)__
 
 Now that we've tried out collection runs, variables, and test snippets, let's explore how to pass data between requests and change the order of execution.

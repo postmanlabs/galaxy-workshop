@@ -1,5 +1,7 @@
 # Prepare for Launch
 
+![Launch](./Launch.jpg)
+
 In this section we're going to create a workspace, import a collection, authorize our requests, and add a test.
 
 ## 1. Create a workspace
