@@ -58,18 +58,6 @@ You can create test scripts that visualize response data when your requests run.
 
 **Check out the [Visualizer docs](https://learning.postman.com/docs/postman/sending-api-requests/visualizer/)**
 
-## Survey
-
-Please take a few minutes to fill out the survey so that we can make future workshops as useful as possible.
-
-__[bit.ly/postman-dublin-survey](http://bit.ly/postman-dublin-survey)__
-
-![Survey QRCode](./QR_code_Dublin.png)
-
-## Kahoot
-
-__Go to [kahoot.it](https://kahoot.it/) and enter the pin show on the screen—answer the questions as quick as you can to win an Amazon gift card!__
-
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 
 ## Additional resources
@@ -95,4 +83,12 @@ Follow-up topics for further learning:
 
 ## Survey
 
-Please fill out the feedback survey before we finish! _URL_
+Please take a few minutes to fill out the survey so that we can make future workshops as useful as possible.
+
+__[bit.ly/postman-dublin-survey](http://bit.ly/postman-dublin-survey)__
+
+![Survey QRCode](./QR_code_Dublin.png)
+
+## Kahoot
+
+__Go to [kahoot.it](https://kahoot.it/) and enter the pin show on the screen—answer the questions as quick as you can to win an Amazon gift card!__
