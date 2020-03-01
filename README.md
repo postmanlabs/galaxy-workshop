@@ -24,6 +24,8 @@ During this half-day session, we'll dive into a series of hands-on exercises to 
 - **T+3:15**
   - Networking, side missions
 
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
+
 ## Learning outcomes
 
 Which of these have you tried already?
