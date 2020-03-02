@@ -38,7 +38,7 @@ You can run all of the requests in a collection or folder using the collection r
 * Click __Runner__ and select the __VIP Customers__ collection.
 * Click __Run VIP Customers__ to see the requests run. By default they'll run in the order they're listed in the collection folder, but you can change that as we'll see soon.
 
-> Your request tests need to be saved to appear in the collection runner so remember to hit __Save__ in the requests._
+> Your request tests need to be saved to appear in the collection runner so remember to hit __Save__ in the requests.
 
 * Import another collection to see more tests run. Click __New__ &gt; __Templates__ and search for "echo". Import the `Postman Echo` collection.
 * Open the collection runner again, choose the Postman Echo collection, and run it.

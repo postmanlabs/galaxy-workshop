@@ -31,15 +31,15 @@ Your scripts can alter the flow of request execution when you use the collection
 * Import another collection from __API Network__, search "learn" again and select the learning profile from before, this time importing "API Learner".
 * Open the __Runner__ and select the `API Learner` collection. Run the collection and notice the flow of execution. All four requests should run.
 * Open the first request `GET data` and __Send__ it. The response includes a field `message` and a text string value.
-* Select the __Tests__ tab. Enter some JavaScript to test the length of the `message` (the conditional test should return true):
+* Select the __Tests__ tab. Enter some JavaScript to test the length of the `message` and set the next request by name (the conditional test should return true):
 
 ```javascript
 let jsonData = pm.response.json();
 let responseField = jsonData.message;
 //check the length of the text
-if (responseField.length < 10) {
+if (responseField.length > 10) {
   //note - setnextrequest only works when you use collection runner
-  postman.setNextRequest(null);
+  postman.setNextRequest("Put data");
 }
 ```
 
