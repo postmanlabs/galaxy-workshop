@@ -2,7 +2,7 @@
 
 ![Launch](./Launch.jpg)
 
-In this section we're going to create a workspace, import a collection, authorize our requests, and add a test.
+In this section we're going to create a workspace, import a collection, add a test, and run a collection.
 
 ## 1. Create a workspace
 
@@ -16,7 +16,7 @@ Postman collections let you organize groups of requests together with associated
 
 We'll import a few collections as we work through the topics. Having these in your Postman app will give you loads more requests to play around with after the session.
 
-* Click **New+**, tab over to **API Network**, and search for "Learning". Select Sue's __API Learning Resources__ listing.
+* Click **New+** (the main button, not the dropdown), tab over to **API Network**, and search for "Learning". Select Sue's __API Learning Resources__ listing.
 * Import the __VIP Customers__ collection using the **Run in Postman** button.
 * Open the VIP Customers collection and click the second request `Get customer` to open it. Take a minute to look at the parts of the request with data entered (highlighted in green). Check out the collection variables to see where the URL components are coming from (open the collection menu and select __Edit__ &gt; __Variables__).
 * __Send__ the request and look at the response data. The API sends back JSON—see the status code, and hover over the response time and size breakdowns. You can also save the response as an Example you can use in documentation and mock servers.
@@ -50,12 +50,12 @@ You can run all of the requests in a collection or folder using the collection r
 
 In this section we tried out:
 
-* creating a workspace
-* importing a collection
-* using variables
-* authorizing requests
-* test scripts
-* running collections
+* Creating a workspace
+* Importing a collection
+* Sent requests
+* Using variables
+* Test scripts
+* Running collections
 
 ## Kahoot
 

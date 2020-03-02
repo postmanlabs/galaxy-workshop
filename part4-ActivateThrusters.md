@@ -72,7 +72,7 @@ Follow-up topics for further learning:
 * __Codegen__
   * If you use code generation in Postman, you can customize how your code is generated using the __Settings__ &gt; __New Code Generation Mode__ option then clicking __Code__ in a request and opening the settings to configure the detail for specific languages.
 * __Console__
-  * The Postman Console provides debugging info you can use when troubleshooting your requests—and has recently had an upgrade. Import the template `How to use the Postman console`, open the console from the bottom left, and run the request `message types`, observing the info you can access in the console display.
+  * The Postman Console provides debugging info you can use when troubleshooting your requests—and has recently had an upgrade. Try using `console.warn`, `console.info`, and `console.error` in your scripts.
 
 ![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
 

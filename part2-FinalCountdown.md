@@ -83,12 +83,12 @@ You can pass data between requests even if they are not in the same collection. 
 
 In this section we tried out:
 
-* used the collection runner
-* chained requests
-* altered execution order
-* passed data between requests
-* set variables from scripts
-* accessed variables in the request body
+* Used the collection runner
+* Chained requests
+* Altered execution order
+* Passed data between requests
+* Set variables from scripts
+* Accessed variables in the request body
 
 ## Kahoot
 
