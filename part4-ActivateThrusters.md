@@ -13,6 +13,7 @@ We saw earlier that you can create workspaces in Postman. There are various othe
 * You can use version control on APIs and collections.
   * Fork, merge, open pull requests.
 * View changelogs for collections, teams, workspaces.
+* Comment and discuss.
 
 **Check out the [Collaboration docs](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/)**
 
@@ -58,17 +59,9 @@ You can create test scripts that visualize response data when your requests run.
 
 **Check out the [Visualizer docs](https://learning.postman.com/docs/postman/sending-api-requests/visualizer/)**
 
-![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
-
-## Additional resources
-
-* [Get support on the Postman community forum](https://community.getpostman.com/)
-* [Check out the docs](https://learning.postman.com/docs/)
-* [Explore the API Network](https://explore.postman.com/)
-
 ![Postman Platform](./platform.png)
 
-## Next steps
+## Other topics
 
 Follow-up topics for further learning:
 
@@ -80,6 +73,14 @@ Follow-up topics for further learning:
   * If you use code generation in Postman, you can customize how your code is generated using the __Settings__ &gt; __New Code Generation Mode__ option then clicking __Code__ in a request and opening the settings to configure the detail for specific languages.
 * __Console__
   * The Postman Console provides debugging info you can use when troubleshooting your requests—and has recently had an upgrade. Import the template `How to use the Postman console`, open the console from the bottom left, and run the request `message types`, observing the info you can access in the console display.
+
+![[winter solstice art](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)](https://apod.nasa.gov/apod/image/1712/WinterSolsticeMW_Seip.jpg)
+
+## Additional resources
+
+* [Get support on the Postman community forum](https://community.getpostman.com/)
+* [Check out the docs](https://learning.postman.com/docs/)
+* [Explore the API Network](https://explore.postman.com/)
 
 ## Survey
 
