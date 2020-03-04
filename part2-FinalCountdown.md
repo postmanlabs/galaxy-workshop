@@ -81,7 +81,7 @@ You can pass data between requests even if they are not in the same collection. 
 
 ## Recap
 
-In this section we tried out:
+In this section we:
 
 * Used the collection runner
 * Chained requests
@@ -89,6 +89,10 @@ In this section we tried out:
 * Passed data between requests
 * Set variables from scripts
 * Accessed variables in the request body
+
+## Questions?
+
+Shout out any questions you have on scripting request order, passing data around, setting variables from scripts, accessing variables in request body.
 
 ## Kahoot
 

@@ -2,7 +2,7 @@
 
 ![Activate](./Activate.jpg)
 
-In the last part of the session, we're going to briefly look at a few areas to potentially look into in more detail, then we can do Q&A and dive into any areas of particular interest. After the session you'll still have opportunities to chat to the team about specific topics.
+In the last part of the session, we're going to briefly look at a few areas in more detail, including Q&A. After the session you'll still have opportunities to chat to the team about specific topics.
 
 ## 1. Collaboration in Postman
 
@@ -10,24 +10,13 @@ We saw earlier that you can create workspaces in Postman. There are various othe
 
 * You can invite people to workspaces.
 * With paid accounts you can specify role based access control.
-* You can use version control on APIs and collections.
-  * Fork, merge, open pull requests.
+* As we saw earlier, you can use version control on APIs and collections.
 * View changelogs for collections, teams, workspaces.
 * Comment and discuss.
 
 **Check out the [Collaboration docs](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/)**
 
-## 2. Monitors
-
-We saw earlier how you can run the requests in a collection using the collection runner. You can schedule these to run and analyze performance using monitors.
-
-* Open a collection and choose the __Monitors__ tab.
-* Create a monitor and setup details including run frequency.
-* View monitor results in the web dashboard.
-
-**Check out the [Monitoring docs](https://learning.postman.com/docs/postman/monitors/intro-monitors/)**
-
-## 3. Mock data
+## 2. Mock data
 
 You can use Postman to mock data during API design or development. Mocks use examples you specify in Postman to provide test data.
 
@@ -38,7 +27,7 @@ You can use Postman to mock data during API design or development. Mocks use exa
 
 **Check out the [Mock Server docs](https://learning.postman.com/docs/postman/mock-servers/intro-to-mock-servers/)**
 
-## 4. API specifications
+## 3. API Builder
 
 You can define and model your API using a specification inside Postman. Postman API Builder can act as the single source of truth through multiple phases of your development and testing process.
 
@@ -50,7 +39,7 @@ You can define and model your API using a specification inside Postman. Postman 
 
 **Check out the [API Builder docs](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/)**
 
-## 5. Visualize data
+## 4. Visualize data
 
 You can create test scripts that visualize response data when your requests run. Visualizations can include graphs, charts, and interactive elements using JavaScript libraries.
 
@@ -59,12 +48,23 @@ You can create test scripts that visualize response data when your requests run.
 
 **Check out the [Visualizer docs](https://learning.postman.com/docs/postman/sending-api-requests/visualizer/)**
 
+## 5. Newman
+
+We saw the basics of how to use Newman to access Postman on the command line earlier. Let's take a deeper dive into Newman.
+
+* Run `newman run -h` in your terminal to see the available options. You can specify folder, environments, data files, number of iterations, request delays and timeouts, and a variety of other configurations.
+* You can create and use custom reporters to suit your use case.
+
+__Check out the [Newman docs](https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/).__
+
 ![Postman Platform](./platform.png)
 
 ## Other topics
 
 Follow-up topics for further learning:
 
+* __Monitors__
+  * We saw earlier how you can run the requests in a collection using the collection runner. You can schedule these to run and analyze performance using monitors. Open a collection and choose the __Monitors__ tab. Create a monitor and setup details including run frequency. View monitor results in the web dashboard. Check out the [Monitoring docs](https://learning.postman.com/docs/postman/monitors/intro-monitors/) for more detail.
 * __GraphQL__
   * You can write GraphQL queries and specs in Postman. Import the template `Working with GraphQL` and check it out.
 * __Interceptor__
@@ -81,14 +81,20 @@ Follow-up topics for further learning:
 * [Get support on the Postman community forum](https://community.getpostman.com/)
 * [Check out the docs](https://learning.postman.com/docs/)
 * [Explore the API Network](https://explore.postman.com/)
+* [Create or comment on issues in the GitHub support repo](https://github.com/postmanlabs/postman-app-support/issues)
+* [See what's coming in the public roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers)
+
+## Questions?
+
+Shout out any remaining questions you have. We'll also have time for questions on an individual basis after the session.
 
 ## Survey
 
 Please take a few minutes to fill out the survey so that we can make future workshops as useful as possible.
 
-__[bit.ly/postman-dublin-survey](http://bit.ly/postman-dublin-survey)__
+__[bit.ly/postman-berlin-survey](http://bit.ly/postman-berlin-survey)__
 
-![Survey QRCode](./QR_code_Dublin.png)
+![Survey QRCode](./QR_code_Berlin.png)
 
 ## Kahoot
 

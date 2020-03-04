@@ -57,6 +57,10 @@ In this section we tried out:
 * Test scripts
 * Running collections
 
+## Questions?
+
+Shout out any questions you have on what we covered in this section around collections, variables, tests, or the collection runner.
+
 ## Kahoot
 
 Go to [kahoot.it](https://kahoot.it/) and enter the pin shown on the screen—answer the questions as quick as you can to win an Amazon gift card!

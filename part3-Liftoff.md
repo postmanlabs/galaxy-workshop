@@ -8,19 +8,33 @@ So far we have tried running collections, shared data between requests, and used
 
 You can generate user documentation for an API directly from your Postman collections. Documentation can include instructional text and images, request details, example request and response code, and code snippets in different languages.
 
-* Open any of the collections you have in your Postman app. Click the description text—make an edit. Request details can also be set when you open a request—set the name and description for the request and parameters.
-* With the collection details open, click __View in web__. By default the private view of your docs will open—you can also edit in the browser. When you publish your docs you can share them via url and people can import the collection using the embedded Run in Postman button.
-  * If you just want to use the Run in Postman on a website you can generate HTML or Markdown __Embed__ from the collection in Postman by choosing __Share__.
-* Open the VIP Customers collection in the Postman app and open a GET request. Click __Examples__ and select the `Get` example. Select the collection again, open its details and choose View in Web—you'll see the examples are populated in the docs.
-
-You can promote your docs and collections within the Postman community by listing them in the Templates and API Network when you publish. Docs can be versioned and can include an environment—_you can use variables to populate doc content (but be careful in case you expose sensitive data)_.
-
 > To see a great demo of how you can use Postman for developer onboarding, check out the [ShipEngine Walkthrough](https://documenter.getpostman.com/view/305204/SW7XbA6V?version=latest) collection.
 > * Create a free ShipEngine account and get a sandbox API key by visiting [shipengine.com/postman](https://shipengine.com/postman) (_make sure you use this link as they've kindly raised rate limits for us_).
 > * Select “United States” as your country when signing up for this free account to enable the sandbox environment.
 > * Add your ShipEngine key value in the collection variables as the `API_KEY` and try out the first request.
 
-## 2. Run a collection from CLI with Newman
+* Open the VIP Customers collection detail view and check out the description. Click to edit it—you can use markdown. You can add a description when you first create a collection.
+* Open one of the collection requests and check out the name and description by expanding it—this all appears in the documentation. Make an edit to the description.
+* Open the parameters and headers—these descriptions are also in the docs.
+* Open the request __Examples__—this content will also auto-populate in the docs. Remember from earlier that you can save responses as examples when you send your request.
+* Save any requests you changed, open the collection, and click __View in web__. Your edits should appear—you can also edit directly in the browser.
+* By default your docs will open in a private view which is accessible to anyone with access to the collection. Check out the docs structure—requests are listed on the left and are clickable, your collection description appears at the top, request detail includes parameters, auth, etc, and on the right you can access code snippets in different languages.
+  * You can also publish your docs, then share them by URL. Published docs can be linked to specific versions of your collection and can include environments. If you include an environment, any variables you reference in the requests will populate in the docs from the relevant variable value (collection or environment).
+* While publishing you can share your collection in the Templates or API Network, which makes them available from the __New__ button in the Postman app just like the collections we've been using today.
+* Your docs will include the Run in Postman button which allows people to import the collection in a single click (optionally including an environment). You can alternatively generate a Run in Postman button from the Postman app. Open the collection options menu and choose __Share__ then __Embed__. You can generate HTML or Markdown to include in any web page and let people import your collection. _Note that your collection will only auto-update with changes if you publish it / add it to Templates or API Network, if you only use the Run in Postman button you will need to generate the embed code again when you make changes._
+
+## 2. Version control
+
+You can version your collections and manage changes via forks and pull requests.
+
+* Create a fork of a collection—use the collection menu. Choose a name and workspace.
+* Make a change in a request on your fork.
+* _If you have edit access to the parent collection you can merge your changes at any time using the edit menu—or you can create a pull request._
+* Open a pull request using the edit menu. Clicking __Create pull request__ will display the diff in the web dashboard. Enter the details and select reviewers.
+* You an pull changes from the parent collection if it has updated since your fork was created.
+* You can comment on pull requests to discuss them, and can resolve conflicts.
+
+## 3. Run a collection from CLI with Newman
 
 You can run collections from the Postman CLI Newman—which in turn facilitates integrating collection runs with your CI/CD pipeline—for example if tests fail you could set an exit flag to prevent deployment.
 
@@ -31,9 +45,9 @@ You can run collections from the Postman CLI Newman—which in turn facilitates 
 
 We can also run a collection in Newman from a Postman account—in order to do that we need the collection ID, which we can get using the Postman API.
 
-## 3. Use Postman API
+## 4. Use Postman API
 
-Let's use Postman to call the Postman API so that we can get a collection ID to run via Newman.
+Let's use Postman to call the Postman API so that we can get a collection ID to run via Newman. The Postman API provides access to your Postman account data, including collections. You can access it like any other API—it also has a Postman collection to make calling it inside Postman straightforward.
 
 * Import the "Postman" collection into the Postman app from the API Network.
 * Retrieve your Postman API key. Toggle to __Browse__ mode using the switch at the bottom of the Postman app. Select __Integrations__ and navigate to the web dashboard.
@@ -57,6 +71,10 @@ In this section we covered:
 * Generating documentation
 * Using Newman
 * Using Postman API
+
+## Questions?
+
+Shout out any questions you have on documentation, Newman, or Postman API.
 
 ## Kahoot
 
