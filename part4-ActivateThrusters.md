@@ -68,6 +68,9 @@ Follow-up topics for further learning:
 * [Explore the API Network](https://explore.postman.com/)
 * [Create or comment on issues in the GitHub support repo](https://github.com/postmanlabs/postman-app-support/issues)
 * [See what's coming in the public roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers)
+* [Newman HTMLExtra Reporter](https://www.npmjs.com/package/newman-reporter-htmlextra)
+* [Newman Reporters](https://www.npmjs.com/search?q=newman-reporter)
+* [Postman CLI](https://github.com/matt-ball/postman-cli)
 
 ## Survey
 
