@@ -4,28 +4,23 @@
 
 In the last part of the session, we're going to briefly look at a few areas in more detail, including Q&A. After the session you'll still have opportunities to chat to the team about specific topics.
 
-## 1. Collaboration in Postman
+## 1. Visualize data
 
-We saw earlier that you can create workspaces in Postman. There are various other features designed to support collaboration.
+You can create test scripts that visualize response data when your requests run. Visualizations can include graphs, charts, and interactive elements using JavaScript libraries.
 
-* You can invite people to workspaces.
-* With paid accounts you can specify role based access control.
-* As we saw earlier, you can use version control on APIs and collections.
-* View changelogs for collections, teams, workspaces.
-* Comment and discuss.
+* Import the `Visualizer Examples` or `Visualizer Feature Templates` collections.
+* Pick any request and __Send__. When the response comes back, select __Visualize__. To see the code building the visualizations, select the __Tests__ tab. You can use JavaScript visualization libraries such as D3.
 
-**Check out the [Collaboration docs](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/)**
+**Check out the [Visualizer docs](https://learning.postman.com/docs/postman/sending-api-requests/visualizer/)**
 
-## 2. Mock data
+## 2. Newman
 
-You can use Postman to mock data during API design or development. Mocks use examples you specify in Postman to provide test data.
+We saw the basics of how to use Newman to access Postman on the command line earlier. Let's take a deeper dive into Newman.
 
-* Open a collection and select the __Mocks__ tab.
-* Create a new mock, giving it a name.
-* Add examples.
-* Use the mock server URL in your requests to return example data instead of hitting the actual API. _If you set your URL as a variable you can swap the mock URL in there while designing and developing your API._
+* Run `newman run -h` in your terminal to see the available options. You can specify folder, environments, data files, number of iterations, request delays and timeouts, and a variety of other configurations.
+* You can create and use custom reporters to suit your use case.
 
-**Check out the [Mock Server docs](https://learning.postman.com/docs/postman/mock-servers/intro-to-mock-servers/)**
+__Check out the [Newman docs](https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/).__
 
 ## 3. API Builder
 
@@ -39,23 +34,9 @@ You can define and model your API using a specification inside Postman. Postman 
 
 **Check out the [API Builder docs](https://learning.postman.com/docs/postman/design-and-develop-apis/the-api-workflow/)**
 
-## 4. Visualize data
+## Questions?
 
-You can create test scripts that visualize response data when your requests run. Visualizations can include graphs, charts, and interactive elements using JavaScript libraries.
-
-* Import the `Visualizer Examples` or `Visualizer Feature Templates` collections.
-* Pick any request and __Send__. When the response comes back, select __Visualize__. To see the code building the visualizations, select the __Tests__ tab. You can use JavaScript visualization libraries such as D3.
-
-**Check out the [Visualizer docs](https://learning.postman.com/docs/postman/sending-api-requests/visualizer/)**
-
-## 5. Newman
-
-We saw the basics of how to use Newman to access Postman on the command line earlier. Let's take a deeper dive into Newman.
-
-* Run `newman run -h` in your terminal to see the available options. You can specify folder, environments, data files, number of iterations, request delays and timeouts, and a variety of other configurations.
-* You can create and use custom reporters to suit your use case.
-
-__Check out the [Newman docs](https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/).__
+Shout out any remaining questions you have. We'll also have time for questions on an individual basis after the session.
 
 ![Postman Platform](./platform.png)
 
@@ -63,6 +44,10 @@ __Check out the [Newman docs](https://learning.postman.com/docs/postman/collecti
 
 Follow-up topics for further learning:
 
+* __Collaboration__
+  * We saw earlier that you can create workspaces in Postman. There are various other features designed to support collaboration. You can invite people to workspaces. With paid accounts you can specify role based access control. As we saw earlier, you can use version control on APIs and collections. you can also view changelogs for collections, teams, workspaces, as well as comment and discuss. Check out the [Collaboration docs](https://learning.postman.com/docs/postman/collaboration/collaboration-intro/).
+* __Mock data__
+  * You can use Postman to mock data during API design or development. Mocks use examples you specify in Postman to provide test data. Open a collection and select the __Mocks__ tab. Create a new mock, giving it a name. Add examples. Use the mock server URL in your requests to return example data instead of hitting the actual API. _If you set your URL as a variable you can swap the mock URL in there while designing and developing your API._ Check out the [Mock Server docs](https://learning.postman.com/docs/postman/mock-servers/intro-to-mock-servers/).
 * __Monitors__
   * We saw earlier how you can run the requests in a collection using the collection runner. You can schedule these to run and analyze performance using monitors. Open a collection and choose the __Monitors__ tab. Create a monitor and setup details including run frequency. View monitor results in the web dashboard. Check out the [Monitoring docs](https://learning.postman.com/docs/postman/monitors/intro-monitors/) for more detail.
 * __GraphQL__
@@ -83,10 +68,6 @@ Follow-up topics for further learning:
 * [Explore the API Network](https://explore.postman.com/)
 * [Create or comment on issues in the GitHub support repo](https://github.com/postmanlabs/postman-app-support/issues)
 * [See what's coming in the public roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers)
-
-## Questions?
-
-Shout out any remaining questions you have. We'll also have time for questions on an individual basis after the session.
 
 ## Survey
 
