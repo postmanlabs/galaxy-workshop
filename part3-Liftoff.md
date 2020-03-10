@@ -67,3 +67,7 @@ newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{po
 
 1. [Postman Echo](https://explore.postman.com/templates/1358/postman-echo) template
 1. [Postman API](https://explore.postman.com/team/postman)
+
+### Next
+
+Continue to [Part 4: Activate Thrusters](./part4-ActivateThrusters.md)

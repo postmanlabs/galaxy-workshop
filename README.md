@@ -10,13 +10,13 @@ During this half-day session, we'll dive into a series of hands-on exercises, de
 ## Agenda
 
 - **T+0:00 (start)**
-  - Prepare for launch
-  - Final Countdown
+  - [Prepare for launch](./part1-PrepareForLaunch.md)
+  - [Final Countdown](./part2-FinalCountdown.md)
 - **T+1:45**
   - Break
 - **T+2:00**
-  - Liftoff
-  - Activate thrusters
+  - [Liftoff](./part3-Liftoff.md)
+  - [Activate thrusters](./part4-ActivateThrusters.md)
 - **T+3:15**
   - Side missions
   - Q&A

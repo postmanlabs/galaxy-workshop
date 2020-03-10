@@ -52,3 +52,13 @@
 1. [Cosmos](https://explore.postman.com/templates/4341/cosmos) template
 1. [Working with GraphQL](https://explore.postman.com/templates/1692/working-with-graphql) template
 1. [How to use the Postman Console](https://explore.postman.com/templates/4573/how-to-use-the-postman-console) template
+
+## Mission Complete 🚀
+
+### Even More Resources
+
+- Launchpad in-app tutorials
+- Community-contributed [templates](https://learning.getpostman.com/docs/postman_for_publishers/postman_templates/add_templates)
+- [Community forum](https://community.getpostman.com/)
+- [Product Roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers)
+- [Better Practices](https://medium.com/better-practices) technical blog

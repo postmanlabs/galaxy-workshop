@@ -69,3 +69,7 @@ pm.environment.set("nameOfVariable", valueOfVariable);
 1. [Postman sandbox docs](https://learning.postman.com/docs/postman/scripts/postman-sandbox/)
 1. [Working with data files: ramen](https://explore.postman.com/templates/1433/working-with-data-files-ramen) template
 1. [Dynamic variables in mock servers](https://explore.postman.com/templates/3360/dynamic-variables-in-mock-servers) template
+
+### Next
+
+Continue to [Part 3: Liftoff](./part3-Liftoff.md)

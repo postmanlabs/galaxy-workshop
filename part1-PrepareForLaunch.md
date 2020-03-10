@@ -52,3 +52,7 @@
 
 1. [Postman API Network](https://explore.postman.com/)
 1. [Chai.js](https://www.chaijs.com/) test assertion library
+
+### Next
+
+Continue to [Part 2: Final Countdown](./part2-FinalCountdown.md)
