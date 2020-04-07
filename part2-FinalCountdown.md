@@ -28,7 +28,7 @@ Test scripts let you pass data around in Postman, so you can chain tests togethe
 
 Your scripts can alter the flow of request execution when you use the collection runner.
 
-* Import another collection from __API Network__, search "learn" again and select the learning profile from before, this time importing "API Learner".
+* Import another collection from __Templates__, search "learn" and this time import "API Learner".
 * Open the __Runner__ and select the `API Learner` collection. Run the collection and notice the flow of execution. All four requests should run.
 * Open the first request `GET data` and __Send__ it. The response includes a field `message` and a text string value.
 * Select the __Tests__ tab. Enter some JavaScript to test the length of the `message` and set the next request by name (the conditional test should return true):
